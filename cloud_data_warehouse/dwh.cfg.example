@@ -1,0 +1,14 @@
+[CLUSTER]
+HOST=redshift-cluster-1.abcdefghijk.ap-south-1.redshift.amazonaws.com
+DB_NAME=enterdbname
+DB_USER=enterusername
+DB_PASSWORD=enterdbpassword
+DB_PORT=5439
+
+[IAM_ROLE]
+ARN=arn:aws:iam::0123456789:role/redshift_role_for_S3_read
+
+[S3]
+LOG_DATA='s3://mybucket/log_data'
+LOG_JSONPATH='s3://mybucket/log_json_path.json'
+SONG_DATA='s3://mybucket/song_data'
