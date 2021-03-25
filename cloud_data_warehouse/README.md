@@ -57,9 +57,9 @@ information like required database credentials and endpoint, role ARN, port of o
 - Load staging tables - `events_stage` and `songs_stage` - on our Redshift cluster by copying JSON files located on a public S3 bucket.
 - Insert into analytics tables using the above staging tables created.
 
-## Instructions to create the database
+## Instructions to create the data warehouse
 
-We can do the following in order to create our database:
+We can do the following in order to create our data warehouse:
 - Create and launch a Redshift Cluster
     - Associate a role to it so that it can read from S3.
     - Assign proper security group with required inbound rules so that it's accessible from public internet.
