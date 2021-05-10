@@ -1,4 +1,5 @@
 cloud_data_warehouse/dwh.cfg
+data_lake/dl.cfg
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
