@@ -59,7 +59,17 @@ AWS access key ID and secret access key.
 We can do the following in order to create our data lake:
 - Create and launch an EMR cluster with a key-value pair associated to it.
   Recommend to use following settings under "edit software settings" while creating the cluster:
-	[ {  "Classification": "spark", "Properties": {  "maximizeResourceAllocation": "true" } } ]
+  
+  ```
+	[
+	  {
+	    "Classification": "spark",
+	    "Properties": {
+	    "maximizeResourceAllocation": "true"
+	    }
+	  }
+	]
+   ```
 	
 - Place the `etl.py` script and `dl.cfg` onto the EMR master node(/home/hadoop/sparkify/).
 
