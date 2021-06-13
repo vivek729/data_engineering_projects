@@ -1,1 +1,1 @@
-# data_engineering_projects
+Readme files are included in corresponding project directories.
